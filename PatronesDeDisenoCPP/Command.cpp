@@ -1,11 +1,6 @@
 #include "Command.h"
 
-Command::Command()
-{
-
-}
-
-Command::~Command()
+ICommand::~ICommand()
 {
 
 }
