@@ -36,6 +36,11 @@ Personaje::~Personaje()
 	std::cout << "Llamando Destructor" << std::endl;
 }
 
+void Personaje::Crouchear()
+{
+	std::cout << "Llamando Crouch" << std::endl;
+}
+
 float Personaje::GetJumpHeight()
 {
 	return _jumpHeight;
@@ -85,3 +90,4 @@ void Personaje::SetDamage(int damage)
 {
 	_damage = damage;
 }
+

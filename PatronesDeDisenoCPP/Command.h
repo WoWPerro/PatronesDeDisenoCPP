@@ -27,3 +27,12 @@ class DispararCommand : public ICommand
             personaje.Disparar(); // Llama a la acción específica en el personaje
         }
 };
+
+class CrouchCommand : public ICommand
+{
+public:
+    virtual void execute(Personaje& personaje) override
+    {
+        personaje.Crouchear(); // Llama a la acción específica en el personaje
+    }
+};
